@@ -13,7 +13,7 @@ def format_data_for_openai(diffs, readme_content, commit_messages):
     ])+"\n\n"
 
     # Combine all commit messages
-    commit_messages = "\n".join(commit_messages, "\n")+"\n\n"
+    commit_messages = "\n".join(commit_messages)+"\n\n"
 
     # Decode the README content
     readme_content = base64.b64decode(readme_content).decode("utf-8")
