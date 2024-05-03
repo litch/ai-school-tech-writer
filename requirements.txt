@@ -1,4 +1,3 @@
-aiohttp==3.8.1
 aiosignal==1.3.1
 annotated-types==0.6.0
 ansi2html==1.8.0
@@ -54,8 +53,6 @@ executing==1.2.0
 fastjsonschema==2.19.1
 filelock==3.13.1
 Flask==2.0.2
-# Editable install with no version control (flimmer==0.1.0)
--e /Users/litch/code/lightning-projects/flimmer
 fonttools==4.42.1
 frozenlist==1.4.0
 fsspec==2023.10.0
