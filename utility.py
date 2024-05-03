@@ -8,7 +8,7 @@ def format_data_for_openai(diffs, readme_content, commit_messages):
     # Combine the changes into a string with clear delineation.
 
     changes = "\n".join([
-        f"File: {file["filename"]}\nDiff: \n{file["patch"]}\n"
+        f"File: {file['filename']}\nDiff: \n{file['patch']}\n"
         for file in diffs
     ])+"\n\n"
 
